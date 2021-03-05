@@ -1,0 +1,271 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.2.160/W32 for ARM                  05/Mar/2021  16:05:14
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Exe\MP3_treadmill_project.out
+#    Map file     =  
+#        E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\List\MP3_treadmill_project.map
+#    Command line =  
+#        -f C:\Users\QUANGD~1\AppData\Local\Temp\EW6C12.tmp ("E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\main.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\misc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\startup_stm32f10x_md.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_adc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_bkp.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_can.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_cec.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_crc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_dac.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_dbgmcu.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_dma.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_exti.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_flash.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_fsmc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_gpio.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_i2c.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_iwdg.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_pwr.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_rcc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_rtc.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_sdio.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_spi.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_tim.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_usart.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\stm32f10x_wwdg.o"
+#        "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj\system_stm32f10x.o"
+#        --no_out_extension -o "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Exe\MP3_treadmill_project.out"
+#        --map "E:\Working\SW
+#        embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\List\MP3_treadmill_project.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.1\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0M, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                              0xec
+  .intvec   ro code          0x0   0xec  startup_stm32f10x_md.o [1]
+                          - 0xec   0xec
+
+"P1":                             0x24c
+  .text     ro code         0xec  0x118  system_stm32f10x.o [1]
+  .text     ro code        0x204   0x1e  cmain.o [3]
+  .text     ro code        0x222    0x4  low_level_init.o [2]
+  .text     ro code        0x226    0x2  main.o [1]
+  .text     ro code        0x228    0x4  exit.o [2]
+  .text     ro code        0x22c    0xa  cexit.o [3]
+  .text     ro code        0x238   0x14  exit.o [4]
+  .text     ro code        0x24c   0x10  startup_stm32f10x_md.o [1]
+  .text     ro code        0x25c    0xc  cstartup_M.o [3]
+  .text     ro code        0x268    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x26c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x270    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x274    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x278    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x27c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x280    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x284    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x288    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x28c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x290    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x294    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x298    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x29c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2a0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2a4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2a8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2ac    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2b0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2b4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2b8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2bc    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2c0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2c4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2c8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2cc    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2d0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2d4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2d8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2dc    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2e0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2e4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2e8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2ec    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2f0    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2f4    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2f8    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x2fc    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x300    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x304    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x308    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x30c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x310    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x314    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x318    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x31c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x320    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x324    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x328    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x32c    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x330    0x4  startup_stm32f10x_md.o [1]
+  .text     ro code        0x334    0x4  startup_stm32f10x_md.o [1]
+                         - 0x338  0x24c
+
+"P2":                             0x400
+  CSTACK             0x2000'0000  0x400  <Block>
+    CSTACK  uninit   0x2000'0000  0x400  <Block tail>
+                   - 0x2000'0400  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x338     0x7'ffff  0x7'fcc8
+  0x2000'0400  0x2000'ffff    0xfc00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  rw data
+    ------                  -------  -------
+command line/config:
+    ----------------------------------------
+    Total:
+
+E:\Working\SW embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj: [1]
+    main.o                        2
+    startup_stm32f10x_md.o      460
+    system_stm32f10x.o          280
+    ----------------------------------------
+    Total:                      742
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    ----------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    ----------------------------------------
+    Total:                       52
+
+shb_l.a: [4]
+    exit.o                       20
+    ----------------------------------------
+    Total:                       20
+
+    Gaps                          2
+    Linker created                     1 024
+--------------------------------------------
+    Grand Total:                824    1 024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                       0x205        Code  Gb  cmain.o [3]
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'0400         --   Gb  - Linker created -
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+SetSysClock                 0x131   0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72             0x139  0xae  Code  Lc  system_stm32f10x.o [1]
+SystemInit                   0xed  0x44  Code  Gb  system_stm32f10x.o [1]
+__cmain                     0x205        Code  Gb  cmain.o [3]
+__exit                      0x239  0x14  Code  Gb  exit.o [4]
+__iar_program_start         0x25d        Code  Gb  cstartup_M.o [3]
+__low_level_init            0x223   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                0x0        Data  Gb  startup_stm32f10x_md.o [1]
+_call_main                  0x211        Code  Gb  cmain.o [3]
+_exit                       0x22d        Code  Gb  cexit.o [3]
+_main                       0x21f        Code  Gb  cmain.o [3]
+exit                        0x229   0x4  Code  Gb  exit.o [2]
+main                        0x227   0x2  Code  Gb  main.o [1]
+
+
+[1] = E:\Working\SW embeded\GITHUB\MP3_Treadmill_project\MP3_Treadmill_project\Project\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    824 bytes of readonly  code memory
+  1 024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
